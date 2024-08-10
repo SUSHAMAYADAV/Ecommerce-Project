@@ -10,9 +10,6 @@ import {
   Box,
 } from "@mui/material";
 import { useCart } from "../Contexts/CartContext";
-//import { useCart } from "../Contexts/CartContext";
-//import { useCart } from "../Contexts/CartContext";
-
 export default function Home() {
   const [listItem, setListItem] = useState([]);
   const { addToCart } = useCart();
